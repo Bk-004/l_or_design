@@ -75,7 +75,7 @@ header .nav-bar li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./Images/SACS.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/SACS.jpg');
     /*background-image: url(./Images/fond.jpg);*/
     background-size: cover;
 }
@@ -238,7 +238,7 @@ section{
 /*Avis*/
 
 .avis{
-    background-image: url(./Images/fond.jpg);
+    background-image: url('./Images/fond.jpg');
     background-size: cover;
 }
 .avis .contenus{
@@ -309,7 +309,7 @@ section{
 /*contact*/
 
 .contact{
-    background-image: url(./Images/DIV1.jpg);
+    background-image: url('./Images/DIV1.jpg');
     background-size: cover;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
     width: 100%;
